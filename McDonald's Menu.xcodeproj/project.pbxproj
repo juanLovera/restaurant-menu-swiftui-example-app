@@ -8,12 +8,21 @@
 
 /* Begin PBXBuildFile section */
 		D5C1F1382832B916001386C9 /* McDonald_s_MenuApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = D5C1F1372832B916001386C9 /* McDonald_s_MenuApp.swift */; };
-		D5C1F13A2832B916001386C9 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = D5C1F1392832B916001386C9 /* ContentView.swift */; };
+		D5C1F13A2832B916001386C9 /* MainMenuView.swift in Sources */ = {isa = PBXBuildFile; fileRef = D5C1F1392832B916001386C9 /* MainMenuView.swift */; };
 		D5C1F13C2832B918001386C9 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = D5C1F13B2832B918001386C9 /* Assets.xcassets */; };
 		D5C1F13F2832B918001386C9 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = D5C1F13E2832B918001386C9 /* Preview Assets.xcassets */; };
 		D5C1F1492832B918001386C9 /* McDonald_s_MenuTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = D5C1F1482832B918001386C9 /* McDonald_s_MenuTests.swift */; };
 		D5C1F1532832B918001386C9 /* McDonald_s_MenuUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = D5C1F1522832B918001386C9 /* McDonald_s_MenuUITests.swift */; };
 		D5C1F1552832B918001386C9 /* McDonald_s_MenuUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = D5C1F1542832B918001386C9 /* McDonald_s_MenuUITestsLaunchTests.swift */; };
+		D5C1F16228334145001386C9 /* MainMenuCategoryView.swift in Sources */ = {isa = PBXBuildFile; fileRef = D5C1F16128334145001386C9 /* MainMenuCategoryView.swift */; };
+		D5C1F16628334747001386C9 /* MainMenuItemView.swift in Sources */ = {isa = PBXBuildFile; fileRef = D5C1F16528334747001386C9 /* MainMenuItemView.swift */; };
+		D5C1F16928335A1D001386C9 /* NetworkManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = D5C1F16828335A1D001386C9 /* NetworkManager.swift */; };
+		D5C1F16C28335EEA001386C9 /* APIEndpoints.swift in Sources */ = {isa = PBXBuildFile; fileRef = D5C1F16B28335EEA001386C9 /* APIEndpoints.swift */; };
+		D5C1F170283360FB001386C9 /* RestaurantMenu.swift in Sources */ = {isa = PBXBuildFile; fileRef = D5C1F16F283360FB001386C9 /* RestaurantMenu.swift */; };
+		D5C1F17228336167001386C9 /* MainMenuViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = D5C1F17128336167001386C9 /* MainMenuViewModel.swift */; };
+		D5C1F17528336CA9001386C9 /* SDWebImageSwiftUI in Frameworks */ = {isa = PBXBuildFile; productRef = D5C1F17428336CA9001386C9 /* SDWebImageSwiftUI */; };
+		D5C1F17828336CB8001386C9 /* Shimmer in Frameworks */ = {isa = PBXBuildFile; productRef = D5C1F17728336CB8001386C9 /* Shimmer */; };
+		D5C1F17B28341949001386C9 /* MenuItemDetailsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = D5C1F17A28341948001386C9 /* MenuItemDetailsView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -36,7 +45,7 @@
 /* Begin PBXFileReference section */
 		D5C1F1342832B916001386C9 /* McDonald's Menu.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "McDonald's Menu.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		D5C1F1372832B916001386C9 /* McDonald_s_MenuApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = McDonald_s_MenuApp.swift; sourceTree = "<group>"; };
-		D5C1F1392832B916001386C9 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		D5C1F1392832B916001386C9 /* MainMenuView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainMenuView.swift; sourceTree = "<group>"; };
 		D5C1F13B2832B918001386C9 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		D5C1F13E2832B918001386C9 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
 		D5C1F1442832B918001386C9 /* McDonald's MenuTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "McDonald's MenuTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -44,6 +53,13 @@
 		D5C1F14E2832B918001386C9 /* McDonald's MenuUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "McDonald's MenuUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		D5C1F1522832B918001386C9 /* McDonald_s_MenuUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = McDonald_s_MenuUITests.swift; sourceTree = "<group>"; };
 		D5C1F1542832B918001386C9 /* McDonald_s_MenuUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = McDonald_s_MenuUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		D5C1F16128334145001386C9 /* MainMenuCategoryView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainMenuCategoryView.swift; sourceTree = "<group>"; };
+		D5C1F16528334747001386C9 /* MainMenuItemView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainMenuItemView.swift; sourceTree = "<group>"; };
+		D5C1F16828335A1D001386C9 /* NetworkManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NetworkManager.swift; sourceTree = "<group>"; };
+		D5C1F16B28335EEA001386C9 /* APIEndpoints.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = APIEndpoints.swift; sourceTree = "<group>"; };
+		D5C1F16F283360FB001386C9 /* RestaurantMenu.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RestaurantMenu.swift; sourceTree = "<group>"; };
+		D5C1F17128336167001386C9 /* MainMenuViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainMenuViewModel.swift; sourceTree = "<group>"; };
+		D5C1F17A28341948001386C9 /* MenuItemDetailsView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MenuItemDetailsView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -51,6 +67,8 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				D5C1F17828336CB8001386C9 /* Shimmer in Frameworks */,
+				D5C1F17528336CA9001386C9 /* SDWebImageSwiftUI in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -95,7 +113,11 @@
 			isa = PBXGroup;
 			children = (
 				D5C1F1372832B916001386C9 /* McDonald_s_MenuApp.swift */,
-				D5C1F1392832B916001386C9 /* ContentView.swift */,
+				D5C1F16E28336022001386C9 /* Models */,
+				D5C1F16328334182001386C9 /* Views */,
+				D5C1F16D28336011001386C9 /* ViewModels */,
+				D5C1F16728335A02001386C9 /* Managers */,
+				D5C1F16A28335EBA001386C9 /* Constants */,
 				D5C1F13B2832B918001386C9 /* Assets.xcassets */,
 				D5C1F13D2832B918001386C9 /* Preview Content */,
 			);
@@ -127,6 +149,65 @@
 			path = "McDonald's MenuUITests";
 			sourceTree = "<group>";
 		};
+		D5C1F16328334182001386C9 /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				D5C1F1642833419A001386C9 /* MainMenu */,
+				D5C1F17928341310001386C9 /* MenuItemDetails */,
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
+		D5C1F1642833419A001386C9 /* MainMenu */ = {
+			isa = PBXGroup;
+			children = (
+				D5C1F1392832B916001386C9 /* MainMenuView.swift */,
+				D5C1F16128334145001386C9 /* MainMenuCategoryView.swift */,
+				D5C1F16528334747001386C9 /* MainMenuItemView.swift */,
+			);
+			path = MainMenu;
+			sourceTree = "<group>";
+		};
+		D5C1F16728335A02001386C9 /* Managers */ = {
+			isa = PBXGroup;
+			children = (
+				D5C1F16828335A1D001386C9 /* NetworkManager.swift */,
+			);
+			path = Managers;
+			sourceTree = "<group>";
+		};
+		D5C1F16A28335EBA001386C9 /* Constants */ = {
+			isa = PBXGroup;
+			children = (
+				D5C1F16B28335EEA001386C9 /* APIEndpoints.swift */,
+			);
+			path = Constants;
+			sourceTree = "<group>";
+		};
+		D5C1F16D28336011001386C9 /* ViewModels */ = {
+			isa = PBXGroup;
+			children = (
+				D5C1F17128336167001386C9 /* MainMenuViewModel.swift */,
+			);
+			path = ViewModels;
+			sourceTree = "<group>";
+		};
+		D5C1F16E28336022001386C9 /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				D5C1F16F283360FB001386C9 /* RestaurantMenu.swift */,
+			);
+			path = Models;
+			sourceTree = "<group>";
+		};
+		D5C1F17928341310001386C9 /* MenuItemDetails */ = {
+			isa = PBXGroup;
+			children = (
+				D5C1F17A28341948001386C9 /* MenuItemDetailsView.swift */,
+			);
+			path = MenuItemDetails;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -143,6 +224,10 @@
 			dependencies = (
 			);
 			name = "McDonald's Menu";
+			packageProductDependencies = (
+				D5C1F17428336CA9001386C9 /* SDWebImageSwiftUI */,
+				D5C1F17728336CB8001386C9 /* Shimmer */,
+			);
 			productName = "McDonald's Menu";
 			productReference = D5C1F1342832B916001386C9 /* McDonald's Menu.app */;
 			productType = "com.apple.product-type.application";
@@ -215,6 +300,10 @@
 				Base,
 			);
 			mainGroup = D5C1F12B2832B916001386C9;
+			packageReferences = (
+				D5C1F17328336CA9001386C9 /* XCRemoteSwiftPackageReference "SDWebImageSwiftUI" */,
+				D5C1F17628336CB8001386C9 /* XCRemoteSwiftPackageReference "SwiftUI-Shimmer" */,
+			);
 			productRefGroup = D5C1F1352832B916001386C9 /* Products */;
 			projectDirPath = "";
 			projectRoot = "";
@@ -257,8 +346,15 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				D5C1F13A2832B916001386C9 /* ContentView.swift in Sources */,
+				D5C1F17228336167001386C9 /* MainMenuViewModel.swift in Sources */,
+				D5C1F13A2832B916001386C9 /* MainMenuView.swift in Sources */,
+				D5C1F16628334747001386C9 /* MainMenuItemView.swift in Sources */,
+				D5C1F16928335A1D001386C9 /* NetworkManager.swift in Sources */,
+				D5C1F16C28335EEA001386C9 /* APIEndpoints.swift in Sources */,
 				D5C1F1382832B916001386C9 /* McDonald_s_MenuApp.swift in Sources */,
+				D5C1F16228334145001386C9 /* MainMenuCategoryView.swift in Sources */,
+				D5C1F170283360FB001386C9 /* RestaurantMenu.swift in Sources */,
+				D5C1F17B28341949001386C9 /* MenuItemDetailsView.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -605,6 +701,38 @@
 			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
+
+/* Begin XCRemoteSwiftPackageReference section */
+		D5C1F17328336CA9001386C9 /* XCRemoteSwiftPackageReference "SDWebImageSwiftUI" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/SDWebImage/SDWebImageSwiftUI.git";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 2.0.0;
+			};
+		};
+		D5C1F17628336CB8001386C9 /* XCRemoteSwiftPackageReference "SwiftUI-Shimmer" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/markiv/SwiftUI-Shimmer";
+			requirement = {
+				branch = main;
+				kind = branch;
+			};
+		};
+/* End XCRemoteSwiftPackageReference section */
+
+/* Begin XCSwiftPackageProductDependency section */
+		D5C1F17428336CA9001386C9 /* SDWebImageSwiftUI */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = D5C1F17328336CA9001386C9 /* XCRemoteSwiftPackageReference "SDWebImageSwiftUI" */;
+			productName = SDWebImageSwiftUI;
+		};
+		D5C1F17728336CB8001386C9 /* Shimmer */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = D5C1F17628336CB8001386C9 /* XCRemoteSwiftPackageReference "SwiftUI-Shimmer" */;
+			productName = Shimmer;
+		};
+/* End XCSwiftPackageProductDependency section */
 	};
 	rootObject = D5C1F12C2832B916001386C9 /* Project object */;
 }

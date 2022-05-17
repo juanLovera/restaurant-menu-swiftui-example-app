@@ -6,3 +6,9 @@
 //
 
 import Foundation
+
+struct APIEndpoints {
+    
+    private static let baseServer = "https://mcdonalds.trio.dev/"
+    static let menu = baseServer + "menu"
+}

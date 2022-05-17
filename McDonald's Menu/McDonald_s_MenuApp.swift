@@ -11,7 +11,7 @@ import SwiftUI
 struct McDonald_s_MenuApp: App {
     var body: some Scene {
         WindowGroup {
-            ContentView()
+            MainMenuView()
         }
     }
 }
