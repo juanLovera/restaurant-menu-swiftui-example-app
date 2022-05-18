@@ -7,10 +7,10 @@ Xcode 13.1, Swift 5 and iOS 15.
 ### Technical Design
 -This project follows a simple MVVM architecture with 2 main views: 
  - Main Menu: list of menu categories and products. Each category has a scroll view with a LazyHStack containing products images and titles. Images are loaded asynchronically and locally cached.
- ![Simulator Screen Shot - iPhone 12 Pro - 2022-05-17 at 23 51 52](https://user-images.githubusercontent.com/4535491/168947576-4097d890-db29-40f7-bd97-ab824a047717.png)
+ ![Simulator Screen Shot - iPhone 12 Pro - 2022-05-17 at 23 50 42](https://user-images.githubusercontent.com/4535491/168949001-da40b6cb-197e-4616-9a7a-c8c162065784.png)
  
  - Product Details: modal view with image, price, title and description. 
-![Simulator Screen Shot - iPhone 12 Pro - 2022-05-17 at 23 50 42](https://user-images.githubusercontent.com/4535491/168947585-928fb5b7-bae1-4f7f-bf52-e38c9528fa2f.png)
+![Simulator Screen Shot - iPhone 12 Pro - 2022-05-17 at 23 51 52](https://user-images.githubusercontent.com/4535491/168948991-6aaefe28-4cb7-41c7-9a48-d80fe9244afe.png)
 
 -Each View Model has its own protocol so unit tests can be easily added later.
 
