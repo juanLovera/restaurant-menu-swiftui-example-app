@@ -10,11 +10,11 @@ Xcode 13.1, Swift 5 and iOS 15.
  
  ![Simulator Screen Shot - iPhone 12 Pro - 2022-05-17 at 23 50 42](https://user-images.githubusercontent.com/4535491/168949001-da40b6cb-197e-4616-9a7a-c8c162065784.png)
  
- - Product Details: modal view with image, price, title and description. 
+ - Product Details: modal view with image, price, title and description inside a scroll view. 
  
 ![Simulator Screen Shot - iPhone 12 Pro - 2022-05-17 at 23 51 52](https://user-images.githubusercontent.com/4535491/168948991-6aaefe28-4cb7-41c7-9a48-d80fe9244afe.png)
 
--Each View Model has its own protocol so unit tests can be easily added later.
+-Each ViewModel has its own protocol so unit tests can be easily added later.
 
 -The custom network manager uses sync/await for callbacks and Codable for JSON parsing. McDonald's mock API is provided by trio.dev: [https://mcdonalds.trio.dev/menu](https://mcdonalds.trio.dev/menu)
 
