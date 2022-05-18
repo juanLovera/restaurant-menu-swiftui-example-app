@@ -11,6 +11,7 @@ import SDWebImageSwiftUI
 struct MenuItemDetailsView: View {
     
     @State var item: RestaurantMenu.Item
+    @ObservedObject var viewModel = MenuItemDetailsViewModel()
     
     var body: some View {
         ScrollView(.vertical) {
@@ -27,7 +28,7 @@ struct MenuItemDetailsView: View {
                     .font(.title2)
                     .bold()
                     .padding([.bottom], 8)
-                Text(item.price.formatted(.currency(code: "USD")))
+                Text(item.price.formatted(.currency(code: viewModel.currencyCode)))
                     .padding([.leading, .trailing], 12)
                     .padding([.bottom, .top], 2)
                     .overlay(

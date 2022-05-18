@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		D56426CA28349191002B8910 /* MenuItemDetailsViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = D56426C928349191002B8910 /* MenuItemDetailsViewModel.swift */; };
 		D5C1F1382832B916001386C9 /* McDonald_s_MenuApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = D5C1F1372832B916001386C9 /* McDonald_s_MenuApp.swift */; };
 		D5C1F13A2832B916001386C9 /* MainMenuView.swift in Sources */ = {isa = PBXBuildFile; fileRef = D5C1F1392832B916001386C9 /* MainMenuView.swift */; };
 		D5C1F13C2832B918001386C9 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = D5C1F13B2832B918001386C9 /* Assets.xcassets */; };
@@ -43,6 +44,7 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		D56426C928349191002B8910 /* MenuItemDetailsViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MenuItemDetailsViewModel.swift; sourceTree = "<group>"; };
 		D5C1F1342832B916001386C9 /* McDonald's Menu.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "McDonald's Menu.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		D5C1F1372832B916001386C9 /* McDonald_s_MenuApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = McDonald_s_MenuApp.swift; sourceTree = "<group>"; };
 		D5C1F1392832B916001386C9 /* MainMenuView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainMenuView.swift; sourceTree = "<group>"; };
@@ -188,6 +190,7 @@
 			isa = PBXGroup;
 			children = (
 				D5C1F17128336167001386C9 /* MainMenuViewModel.swift */,
+				D56426C928349191002B8910 /* MenuItemDetailsViewModel.swift */,
 			);
 			path = ViewModels;
 			sourceTree = "<group>";
@@ -351,6 +354,7 @@
 				D5C1F16628334747001386C9 /* MainMenuItemView.swift in Sources */,
 				D5C1F16928335A1D001386C9 /* NetworkManager.swift in Sources */,
 				D5C1F16C28335EEA001386C9 /* APIEndpoints.swift in Sources */,
+				D56426CA28349191002B8910 /* MenuItemDetailsViewModel.swift in Sources */,
 				D5C1F1382832B916001386C9 /* McDonald_s_MenuApp.swift in Sources */,
 				D5C1F16228334145001386C9 /* MainMenuCategoryView.swift in Sources */,
 				D5C1F170283360FB001386C9 /* RestaurantMenu.swift in Sources */,
