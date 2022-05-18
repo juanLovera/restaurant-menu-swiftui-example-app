@@ -10,7 +10,7 @@ import SwiftUI
 struct MainMenuCategoryView: View {
     
     @State var menu: RestaurantMenu.Menu
-    @State var menuItemPresented = false
+    @State var selectedItem: RestaurantMenu.Item?
     
     var body: some View {
         VStack(alignment: .leading) {
@@ -22,15 +22,15 @@ struct MainMenuCategoryView: View {
                     ForEach(menu.items, id: \.name) { item in
                         MainMenuItemView(item: item)
                             .onTapGesture {
-                                self.menuItemPresented = true
-                            }
-                            .sheet(isPresented: $menuItemPresented, onDismiss: {
-                                self.menuItemPresented = false
-                            }) {
-                                MenuItemDetailsView(item: item)
+                                self.selectedItem = item
                             }
                     }
                 }
+            }
+            .sheet(item: self.$selectedItem, onDismiss: {
+                self.selectedItem = nil
+            }) { item in
+                MenuItemDetailsView(item: item)
             }
         }
         .padding()

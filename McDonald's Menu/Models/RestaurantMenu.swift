@@ -28,7 +28,8 @@ struct RestaurantMenu: Codable {
     }
 
     // MARK: - Item
-    struct Item: Codable {
+    struct Item: Codable, Identifiable {
+        var id: String? { name }
         let name, description: String
         let price: Double
         let url: String?
