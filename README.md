@@ -10,7 +10,7 @@ Xcode 13.1, Swift 5 and iOS 15.
  
  ![Simulator Screen Shot - iPhone 12 Pro - 2022-05-17 at 23 50 42](https://user-images.githubusercontent.com/4535491/168949001-da40b6cb-197e-4616-9a7a-c8c162065784.png)
  
- - Product Details: modal view with image, price, title and description inside a scroll view. 
+ - Product Details: modal view with image, price, title and description inside a scroll view. The scroll view is needed so large content fits on small screens.
  
 ![Simulator Screen Shot - iPhone 12 Pro - 2022-05-17 at 23 51 52](https://user-images.githubusercontent.com/4535491/168948991-6aaefe28-4cb7-41c7-9a48-d80fe9244afe.png)
 
@@ -24,4 +24,8 @@ This project uses Swift Package Manager and it has 2 dependencies:
 
  - https://github.com/markiv/SwiftUI-Shimmer (effect used in loading screen).
  - https://github.com/SDWebImage/SDWebImageSwiftUI.git (image loading/caching).
+
+### Overview Video
+
+https://www.youtube.com/watch?v=yn2DadPaAtU
 
